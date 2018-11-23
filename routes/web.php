@@ -26,19 +26,19 @@ Route::group(['prefix'=>'admin'],function(){
 	Route::group(['prefix'=>'theloai'],function(){
 		// admin/theloai/....
 		Route::get('danhsach',[
-			'as'=> 'danhsach',
+			'as'=> 'theloai/danhsach',
 			'uses'=> 'TheLoaiController@getDanhSach'
 		]);
 
-		Route::get('sua',[
-			'as'=> 'sua',
-			'use'=> 'TheLoaiController@getSua'
-		]);
+		// Route::get('sua',[
+		// 	'as'=> 'sua',
+		// 	'uses'=> 'TheLoaiController@getSua'
+		// ]);
 
-		Route::get('them',[
-			'as'=> 'them',
-			'use'=> 'TheLoaiController@getThem'
-		]);
+		// Route::get('them',[
+		// 	'as'=> 'them',
+		// 	'uses'=> 'TheLoaiController@getThem'
+		// ]);
 	});
 
 	// loaitin------------------------------
