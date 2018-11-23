@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class TheLoaiController extends Controller
+{
+    //
+    public function getDanhSach(){
+    	return view('admin.TheLoai.danhsach');
+    }
+
+    public function getSua(){
+
+    }
+
+    public function getThem(){
+    	
+    }
+}
