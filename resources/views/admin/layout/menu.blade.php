@@ -22,7 +22,7 @@
 						<a href="{{route('theloai/danhsach')}}">Danh Sách</a>
 					</li>
 					<li>
-						<a href="#">Thêm</a>
+						<a href="{{route('theloai/them')}}">Thêm</a>
 					</li>
 				</ul>
 				<!-- /.nav-second-level -->
